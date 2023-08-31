@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/*-----------------------------------navbar*/
+.site-name {
+  color: rgb(253, 206, 35);
+  position: absolute;
+  top: 0;
+}
+
+#search-bar {
+  height: 40px;
+  width: 50vw;
+}
+
+form {
+  width: inherit;
+  background-color: rgb(109, 114, 121);
+  border-radius: 50px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+input {
+  width: 90%;
+  height: 2.5rem;
+  outline: none;
+  padding: 1.5rem;
+  border: 0;
+  background-color: transparent;
+  color: #fff
+}
+
+::placeholder {
+  opacity: 0.7;
+  color: #fff
+}
+
+#search-btn {
+  height: 2.9rem;
+  width: 4.8rem;
+  border: transparent;
+  background-color:  rgb(253, 206, 35);
+}
+
+.search-icon {
+  font-size: 25px;
+  color: #3d3e43;
+}
+/*------------------------------------*/
+
+#show-favourites {
+  display: none;
+  font-size: 1.7rem;
+}
+
+/*header {
+  background-color: #191818;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#header-text{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0% 33%;
+
+}
+#imdb-logo{
+  height: 60px;
+  width: 70px;
+  display: inline-block;
+}
+
+input {
+  padding: 6px;
+  width: 80%;
+  border-radius: 5px;
+}*/
+
+/*-----------------------------------------*/
+#parentContent{
+  height: 100vh;
+  background-color: #292727;
+}
+#mainContent{
+  padding: 1px;
+  height: auto;
+  background-color: #292727;
+
+}
+#favorite{
+  height: 40px;
+  width: 30px;
+}
+#showFavoritesButton{
+  padding: 6px;
+  background-color: rgb(253, 206, 35);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.movie {
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  background-color: #191818;
+  border-radius: 10px;
+}
+
+.movieText{
+  padding: 0px 30px;
+  
+}
+.movie img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.fav-btn {
+/*  margin-left: auto;*/
+/*  background-color: #f44336;*/
+  background-color: green;
+  border: none;
+  color: white;
+/*  padding: 5px 10px;*/
+  cursor: pointer;
+  border-radius: 5px;
+}
+.white{
+    color: white;
+    font-size: 1.2rem;
+  }
+

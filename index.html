@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini IMDB Clone</title>
+
+  <link rel="stylesheet" href="style.css"> 
+
+
+    <!-- Bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/a8162db7fd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+
+</head>
+
+<body>
+
+  <nav class="navbar bg-dark px-2 sticky-top">
+      <div class="container-fluid justify-content-start">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="" width="45" height="45" class="d-inline-block align-text-top"/>
+          <span class="pt-4 site-name animate__animated animate__rubberBand">
+            Movie Maniacs
+          </span>
+        </a>
+
+        <!-- Search Bar------------------>
+        <div id="search-bar" class="mx-auto">
+          <form action="" autocomplete="off">
+            <input
+              type="search"
+              placeholder="Search a movie..."
+              id="searchInput"
+              autocomplete="off"
+            />
+
+            <button id="search-btn">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </button>
+
+          </form>
+        </div>
+        <!-- ------------------------- -->
+
+        <div id="show-favourites"><i class="fa-solid fa-bars"></i></div>
+
+        <!-- Button to navigate to favorites page -->
+        <a href="favorites.html">
+          <button id="showFavoritesButton">Show My Favorites</button>
+        </a>
+
+      </div>
+    </nav>
+
+  </header> 
+
+  <div id="parentContent">
+    <div id="mainContent">
+      <!-- Searched movies will be added here dynamically. -->
+    </div>
+  </div>
+
+  <!-- Linking external JavaScript file -->
+  <script src="index.js"></script>
+
+</body>
+</html>
